@@ -14,4 +14,4 @@ pedido.add_item(loja.comprar('1234', 3), 3)
 pedido.add_item(loja.comprar('123', 3), 3)
 
 loja.devolver_carrinho(pedido)
-pedido2.checkout('dinheiro')
+pedido2.checkout(Pedido.DINHEIRO)

@@ -92,7 +92,7 @@ class TestPedido:
         pedido = Pedido(cliente)
         pedido.add_item(Produto(ean='123', preco=10),2)
         pedido.add_item(Produto(ean='123546', preco=5), 1)
-        checkout = pedido.checkout('dinheiro')
+        checkout = pedido.checkout(Pedido.DINHEIRO)
         assert len(checkout) == 2
         assert checkout[1] == 25
 
