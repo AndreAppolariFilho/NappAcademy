@@ -1,0 +1,4 @@
+Para fazer o client de integrações é construido várias classes para fazer a conexão com o banco de dados,
+ou com a forma que o local armazena dados. Isso varia de acordo com o ERP, e as vezes o mesmo ERP para lojas
+diferentes também tem uma variação de como vai se obter os dados. Então penso que se poderia pensar em uma forma
+de fazer um bridge entre o ERP e a loja, ou pensar em algo no sentido.
