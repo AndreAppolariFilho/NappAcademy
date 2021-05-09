@@ -1,0 +1,2 @@
+Durante a integração existe vários ERPS e várias estilos de banco de dados,
+poderia criar classes Erp's, fabricando as classes com as conexões do banco.
