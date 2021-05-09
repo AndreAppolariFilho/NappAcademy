@@ -17,10 +17,6 @@ class Profile(ABC):
     def addSections(self, section):
         self._sections.append(section)
 
-"""
-Obs.: Não sei se foi proposital o nome das classes começarem
-com letra minuscula
-"""
 class linkedin(Profile):
     def createProfile(self):
         self.addSections(PersonalSection())
