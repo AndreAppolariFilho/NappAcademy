@@ -1,0 +1,2 @@
+Para criar uma conexão com um ERP com mySQL irá ser necessário ter as informações de nome de usuário (username), 
+senha(password), host name ou ip, e o nome da base de dados. Depois disso basta escrever a classe ERP3 herdando de Relatório
